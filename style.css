@@ -1,0 +1,86 @@
+html {
+  background: black;
+  color: red;
+}
+
+/* this is the table that encloses the form*/
+#keeperblock {
+  color: red;
+  background-color: black;
+  border: solid 1px red;
+  text-align: center;
+  margin: auto;
+  margin-top: 40vh;
+}
+
+/* username & password input text boxes*/
+#keeperblock #ku,
+#kp {
+  border: solid 1px red;
+  font: normal 12px verdana;
+  width: 100;
+}
+
+/* cell that contains the text "save password"*/
+#keeperblock #ksp {
+  font: normal 11px arial;
+}
+
+/* sign-in button*/
+#keeperblock #kb {
+  color: red;
+  background-color: black;
+  border: solid 1px #red;
+}
+
+/* div that contains the noscript blurb*/
+#keeperblock #kns {
+  display: inline;
+  color: red;
+  background-color: black;
+  font: normal 11px tahoma, sans-serif;
+}
+
+/**  END OF FILE  */
+.demo {
+  border: 1px solid #C0C0C0;
+  border-collapse: collapse;
+  padding: 5px;
+  color: red;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.demo th {
+  border: 1px solid red;
+  padding: 5px;
+  background: none;
+  text-align: center;
+}
+.demo td {
+  border: 1px solid red;
+  padding: 5px;
+  text-align: center;
+}
+caption {
+  font-size: 30px;
+}
+p,
+div,
+span,
+button,
+a {
+  color: #c00 !important;
+}
+html {
+  background: black;
+  color: red;
+}
+.logout {
+  border: red 1px solid;
+  padding: 10px;
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
