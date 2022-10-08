@@ -1,86 +1,88 @@
 html {
-  background: black;
-  color: red;
+  /*   -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; */
+  height: 200vh;
 }
-
-/* this is the table that encloses the form*/
-#keeperblock {
-  color: red;
-  background-color: black;
-  border: solid 1px red;
-  text-align: center;
-  margin: auto;
-  margin-top: 40vh;
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
 }
-
-/* username & password input text boxes*/
-#keeperblock #ku,
-#kp {
-  border: solid 1px red;
-  font: normal 12px verdana;
-  width: 100;
-}
-
-/* cell that contains the text "save password"*/
-#keeperblock #ksp {
-  font: normal 11px arial;
-}
-
-/* sign-in button*/
-#keeperblock #kb {
-  color: red;
-  background-color: black;
-  border: solid 1px #red;
-}
-
-/* div that contains the noscript blurb*/
-#keeperblock #kns {
-  display: inline;
-  color: red;
-  background-color: black;
-  font: normal 11px tahoma, sans-serif;
-}
-
-/**  END OF FILE  */
-.demo {
-  border: 1px solid #C0C0C0;
-  border-collapse: collapse;
-  padding: 5px;
-  color: red;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-.demo th {
-  border: 1px solid red;
-  padding: 5px;
+select,
+input {
   background: none;
-  text-align: center;
+  color: black;
+  outline: none;
+  border: 0px;
+  border-bottom: 1px solid black;
 }
-.demo td {
-  border: 1px solid red;
-  padding: 5px;
-  text-align: center;
+button {
+  background: white;
+  color: black;
+  outline: none;
+  border-radius: 0px;
+  border: 1px solid black;
 }
-caption {
-  font-size: 30px;
-}
-p,
-div,
-span,
-button,
-a {
-  color: #c00 !important;
-}
-html {
+button:hover {
   background: black;
-  color: red;
+  color: white;
+  outline: none;
+  border-radius: 0px;
+  border: 1px solid black;
 }
-.logout {
-  border: red 1px solid;
+xmp {
+  display: inline;
+  background: #c8ccd0;
+  color: black;
   padding: 10px;
-  position: absolute;
-  top: 8px;
-  right: 16px;
+  border-radius: 5px;
 }
-
+#planConfirmation {
+  color: #c00;
+}
+/* Custom Alert and Prompt */
+#customAlert {
+  position: fixed;
+  text-align: center;
+  background: white;
+  border: 1px solid black;
+  width: 500px;
+  top: 50%;
+  margin-top: -100px;
+  left: 50%;
+  right: 50%;
+  margin-left: -250px;
+  border-radius: 20px;
+  display: none;
+  margin-top: 15% auto;
+  padding: 20px;
+/*   cursor: move; */
+  z-index: 10;
+}
+#customAlert h1 {
+  margin: 0px;
+}
+#alertOK {
+  width: 80%;
+  padding: 10px;
+  margin: 10px;
+}
+#background {
+  width: 100%;
+  height: 100vh;
+  margin:0px;
+  left:0px;
+  top:0px;
+   opacity: 0.87;
+  position: fixed;
+  background: black;
+  display:none;
+}
+/* #customPrompt button {
+  width: 50%;
+}
+#customPrompt input {
+  width: 100%;
+  text-align: center;
+} */
